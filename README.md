@@ -7,5 +7,7 @@ Static site. `index.html` is self contained (images embedded); `assets/` holds c
 2. Settings → Pages → Deploy from branch → `main` / root.
 3. Your page will be live at `https://<user>.github.io/<repo>/`.
 
-## Later
-- Hero welcome video is hidden for now. Once the video is ready it will be added and this file re-exported.
+## Welcome video
+Put the video at `assets/welcome.mp4` (exact name). The page plays it with its own clean controls.
+If the file is missing, the page falls back to the Google Drive player.
+- GitHub's website upload limit is 25 MB per file. Either compress the video under 25 MB (e.g. HandBrake, preset "Fast 720p30") or upload with GitHub Desktop (limit 100 MB).
